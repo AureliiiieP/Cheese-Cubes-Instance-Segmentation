@@ -36,6 +36,10 @@ Note. Training can be quite long even with small dataset. Metrics can be stuck a
 Please try changing parameters in train.py to save up time and accelerate convergence.
 
 ## Inference
+Please run
+```
+python3 test.py -input_dir data/test_coco -annotation data/test_coco/annotations.json -model_weight output/best.pth -output_dir output/test
+```
 
 ## Example of results
 <img src="doc/result_example.png" width="500" />
