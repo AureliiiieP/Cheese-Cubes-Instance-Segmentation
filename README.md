@@ -21,6 +21,6 @@ Please contact me if you want to download the dataset !
 ## Inference
 
 ## Example of results
-![Example of image](doc/cheese-thrown-in-box.PNG)
+![Example of image](doc/result_example.png)
 
 ## Folder organization
