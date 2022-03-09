@@ -4,6 +4,11 @@ We use instance segmentation (detectron2) to detect and classify flavors of Fren
 
 Disclaimer. This is a tiny project made in my free time when I was trying to learn instance segmentation. I'm in the process of cleaning, adding documentation to this repo. Please be patient with me !
 
+## Environment
+```
+conda env create -f environment.yml
+```
+
 ## Dataset
 A very small toy dataset was created by annotating 39 photos of cheese cubes of 5 different flavors :
 - Olive
@@ -44,4 +49,24 @@ python3 test.py -input_dir data/test_coco -annotation data/test_coco/annotations
 ## Example of results
 <img src="doc/result_example.png" width="500" />
 
-## Folder organization
+## Folder organization example
+```
+.
+├── data 
+│   ├── test 
+│   │    ├── img1.jpg
+│   │    ├── img1.json
+│   │    ├── img2.jpg
+│   │    ├── img2.json
+│   │    └── ...
+│   ├── train
+│   ├── validation
+│   └── labels.txt   
+├── models
+├── utils
+├── environment.yml
+├── LICENSE
+├── README.md
+├── test.py
+└── train.py
+```
