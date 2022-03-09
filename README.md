@@ -12,9 +12,19 @@ A very small toy dataset was created by annotating 39 photos of cheese cubes of 
 - Camembert
 - Cheddar
 
+The data was annotated using [labelme](https://github.com/wkentaro/labelme).
+
 Please contact me if you want to download the dataset !
 
+Example of image :
 <img src="doc/cheese-thrown-in-box.PNG" width="500" />
+
+## Convert the labels 
+
+The labels need to be converted to COCO format before training. Please run :
+```
+python3 utils/labelme2coco.py "data/train" "data/train_coco" data/labels.txt
+```
 
 ## Training
 
