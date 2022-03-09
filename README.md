@@ -14,13 +14,13 @@ A very small toy dataset was created by annotating 39 photos of cheese cubes of 
 
 Please contact me if you want to download the dataset !
 
-![Example of image](Cheese-Cubes-Instance-Segmmentation/doc/cheese-thrown-in-box.PNG)
+![Example of image](doc/cheese-thrown-in-box.PNG)
 
 ## Training
 
 ## Inference
 
 ## Example of results
-![Example of image](Cheese-Cubes-Instance-Segmmentation/doc/cheese-thrown-in-box.PNG)
+![Example of image](doc/cheese-thrown-in-box.PNG)
 
 ## Folder organization
