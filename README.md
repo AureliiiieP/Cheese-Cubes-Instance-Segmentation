@@ -1,4 +1,4 @@
-# Cheese-Cubes-Instance-Segmmentation
+# Cheese-Cubes-Instance-Segmentation
 Small project on custom small dataset. 
 We use instance segmentation (detectron2) to detect and classify flavors of French delicious cheese cubes. 
 
@@ -27,6 +27,13 @@ python3 utils/labelme2coco.py "data/train" "data/train_coco" data/labels.txt
 ```
 
 ## Training
+Please set data paths, output folder path inside the file and run :
+```
+python3 train.py
+```
+
+Note. Training can be quite long even with small dataset. Metrics can be stuck at 0 / Nan for long time.
+Please try changing parameters in train.py to save up time and accelerate convergence.
 
 ## Inference
 
