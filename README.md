@@ -73,5 +73,6 @@ python3 test.py -input_dir data/test_coco -annotation data/test_coco/annotations
 
 ## Other
 Ressources used to make this repo include :
-https://detectron2.readthedocs.io/en/latest/index.html (used to make our customer Trainer, eval functions etc) 
-https://blog.roboflow.com/how-to-train-detectron2/ (used as example of how to register datasets and set config)
+
+- [Official documentation of detectron 2](https://detectron2.readthedocs.io/en/latest/index.html) : used to make our customer Trainer, eval functions etc
+- [Roboflow blog article](https://blog.roboflow.com/how-to-train-detectron2/) : used as example of how to register datasets and set config
