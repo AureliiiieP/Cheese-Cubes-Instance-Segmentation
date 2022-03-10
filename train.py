@@ -1,4 +1,3 @@
-# Credit to https://blog.roboflow.com/how-to-train-detectron2/ 
 import os
 import detectron2
 from detectron2 import model_zoo
