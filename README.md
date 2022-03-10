@@ -2,7 +2,7 @@
 Small project on custom small dataset. 
 We use instance segmentation (detectron2) to detect and classify flavors of French delicious cheese cubes. 
 
-Disclaimer. This is a tiny project made in my free time when I was trying to learn instance segmentation. It's fairly simple / slow / old code.
+Disclaimer. This is a tiny project made in my free time when I was trying to learn instance segmentation. It's fairly simple and can probably be improved !
 
 ## Environment
 ```
